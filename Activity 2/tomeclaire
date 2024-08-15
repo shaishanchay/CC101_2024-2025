@@ -1,0 +1,14 @@
+Create a program that will compute the student's average.
+
+Subject:
+        Math
+        Science
+        English
+# declare the grades
+math = 95
+science = 80
+english = 90
+# formula of how to get the average
+average = math + science + english / 3
+# display the average 
+print("Your average is: ",average)
