@@ -1,0 +1,20 @@
+sampleText2 = "My name is {0} i love {1} and playing {2}"
+sampleText2a = sampleText2.format("niki", "chu", "volleyball")
+print(sampleText2a)
+
+My name is niki i love chu and playing volleyball
+
+sampleText3 = "My name is {newname} i love {newfood} and playing {newgame}"
+sampleText3a = sampleText3.format(newname="nhaekki", newfood="burger", newgame="basketball")
+print(sampleText3a)
+
+My name is nhaekki i love burger and playing basketball
+
+item = "milk"
+cost = 35.50
+sampleText4 = "The product is %s costs %.2f" % (item, cost)
+print(sampleText4)
+
+The product is milk cost 35.50
+
+
