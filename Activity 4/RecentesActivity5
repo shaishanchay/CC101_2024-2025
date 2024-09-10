@@ -1,0 +1,7 @@
+item = "monitor"
+cost = 1000
+
+sampletext5 = f"The item is {item} and the cost is {cost * 100} pesos."
+print(sampletext5)
+
+The item is monitor and the cost is 100000 pesos.
