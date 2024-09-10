@@ -17,3 +17,17 @@ sampleText4 = ("the product %s is cost %.2f" % (item, cost))
 print(sampleText4)
 
 The product is milk the cost 35.50,
+
+# item = "milk
+# cost = 35.5
+# sampleText4 = "the product is %s the cost is %.5f." % (item, cost)
+# print(SampleText4)
+item = "apple watch"
+cost = 9900
+
+SampleText5 = f"The item is {item} and the cost is {cost * 100} pesos."
+print(SampleText5)  # Output: The item is apple watch and the cost is
+
+The item is apple watch and the cost is 990000 pesos.
+
+
