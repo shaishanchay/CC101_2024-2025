@@ -17,4 +17,34 @@ print(sampleText4)
 
 The product is milk cost 35.50
 
+item = "apple watch"
+cost = 9900
+
+SampleText5 = f"The item is {item} and the cost is {cost * 100} pesos
+print(SampleText5)
+
+The item is apple watch and the cost is 990000
+
+strings = ["Animals", "Badger", "Honey Bee", "Honey Badger"]
+for string in strings:
+    lowercase_string = string.lower()
+    print(lowercase_string)
+
+
+animals
+badger
+honey bee
+honey badger
+
+
+strings = ["Animals", "Badger", "Honey Bee", "Honey Badger"]
+for string in strings:
+    uppercase_string = string.upper()
+    print(uppercase_string)
+
+ANIMALS
+BADGER
+HONEY BEE
+HONEY BADGER
+
 
