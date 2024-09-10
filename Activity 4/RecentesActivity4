@@ -1,0 +1,11 @@
+strings = ["Animals", "Badger", "Honey Bee", "Honey Badger"]
+
+for string in strings:
+    lowercase_string = string.lower()
+    print(lowercase_string)
+
+animals
+badger
+honey bee
+honey badger
+
