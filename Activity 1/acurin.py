@@ -13,3 +13,18 @@ z = x + y
 print ( z )
 30.0 
 
+
+
+# #declare the values of x and y
+# x = int(input("State here your value: "))
+# y = int(input("State here your value: "))
+
+# #this where my expression
+# z = x+y
+
+# #This is for output
+# print(z)
+
+
+
+
