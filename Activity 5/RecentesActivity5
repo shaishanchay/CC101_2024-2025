@@ -1,0 +1,29 @@
+def count_characters(s):
+  
+    lowercase_count = 0
+    uppercase_count = 0
+    digit_count = 0
+    special_count = 0
+  
+    for char in s:
+        if char.islower():
+            lowercase_count += 1
+        elif char.isupper():
+            uppercase_count += 1
+        elif char.isdigit():
+            digit_count += 1
+        else:
+            special_count += 1
+
+    return {
+        'lowercase': lowercase_count,
+        'uppercase': uppercase_count,
+        'digits': digit_count,
+        'special_symbols': special_count
+    }
+
+input_string = "Hi My Name is Jason Recentes I'm 18 Years Old"
+result = count_characters(input_string)
+print(result)
+
+{'lowercase': 25, 'uppercase': 8, 'digits': 2, 'special_symbols': 10}
