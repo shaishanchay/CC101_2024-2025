@@ -18,3 +18,9 @@ sampleText4 = "the product %s cost %.2f" %  (item, cost)
 print(sampleText4)
 
 the product milk cost 35.50
+
+item = "apple watch"
+cost = 9900
+
+sampleText5 = f"the item is {item} and the cost is {cost * 100} pesos*
+print(sampleText5)
