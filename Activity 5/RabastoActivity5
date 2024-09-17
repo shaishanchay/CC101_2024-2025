@@ -1,0 +1,34 @@
+def count_characters(s):
+
+    lower_case_count = 0
+    upper_case_count = 0
+    digit_count = 0
+    special_symbol_count = 0
+
+
+    for char in s:
+        if char.islower():
+            lower_case_count += 1
+        elif char.isupper():
+            upper_case_count += 1
+        elif char.isdigit():
+            digit_count += 1
+        else:
+            special_symbol_count += 1
+
+
+    return {
+        'lower_case': lower_case_count,
+        'upper_case': upper_case_count,
+        'digits': digit_count,
+        'special_symbols': special_symbol_count
+    }
+
+
+
+input_string = "Hello My Name Is Shann And I love Playing Online Games For Fun"
+result = count_characters(input_string)
+print(result)
+
+
+{'lower_case': 38, 'upper_case': 12, 'digits': 0, 'special_symbols': 12}
