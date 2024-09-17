@@ -1,0 +1,10 @@
+strings = ["Animals", "Badger", "Honey Bee", "Honey Badger"]
+
+for string in strings:
+    uppercase_string = string.upper()
+    print(uppercase_string)
+
+ANIMALS
+BADGER
+HONEY BEE
+HONEY BADGER
