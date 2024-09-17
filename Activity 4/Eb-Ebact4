@@ -1,0 +1,50 @@
+sampleText2 = "my name is {0]. i love {1} and playing {2}" 
+sampleText2 = sampleText2. format ("hannah", "kaldereta," "volleyball")
+print(sampleText2a)
+
+my name is hannah. i love kaldereta and playing volleyball
+
+
+sampletText3 = "My name is {name}. I love {food}. I love playing {play}."
+sampleText3a = sampleText3.format(name="dangs=", food="coffe", play="volleyball")
+print(sampleText3a)
+
+My name is dangs. I love coffe. I love playing volleyball
+
+
+item = "milk" 
+cost = 39.50
+sampleText4 = "the product %s cost %.2f" % (item, cost) 
+print(sampleText4) 
+
+the product milk cost 39.50
+
+item = "apple watch" 
+cost = 9900
+
+SampleText5 = f"The item is {item} and the cost is {cost * 100} pesos."
+print(SampleText5) # Output: The item is apple watch and the cost is 
+
+The item is apple watch and the cost is 990000 pesos.
+
+strings = ["Animals", "Badger", "Honey Bee", "Honey Badger"] 
+for string in strings: 
+lowercase_string = string.lower() 
+print(lowercase_string) 
+
+animals
+badger
+honey bee
+honey badger
+
+strings = ["Animals", "Badger", "Honey Bee", "Honey Badger"] 
+for string in strings: 
+uppercase_string = string.upper() 
+print(uppercase_string) 
+
+ANIMALS 
+BADGER
+HONEY BEE
+HONEY BADGER
+
+
