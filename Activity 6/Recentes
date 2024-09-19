@@ -1,0 +1,25 @@
+name = input("Enter your name")
+age = input("Enter your age")
+sport = input("Enter your sport")
+
+print(f"Welcome, {name}! You are {age} years of age and you love to ride {sport}.")
+
+item = "Samsung S24 Ultra"
+cost = 96,999
+
+sentence = f"The item is {item} and the cost {cost * 1} pesos"
+print(sentence)
+
+place = "Pinan"
+temperature = 23
+
+print("The temperature in %s %d degrees celcius." % (place, temperature))   
+
+
+
+Enter your name jason 
+Enter your age 19
+Enter your sport mountainbike
+Welcome,  jason ! You are  19 years of age and you love to ride  mountainbike.
+The item is Samsung S24 Ultra and the cost (96, 999) pesos
+The temperature in Pinan 23 degrees celcius.
