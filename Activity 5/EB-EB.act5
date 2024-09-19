@@ -22,11 +22,11 @@ def count_characters(s):
           'special_symbols': special_count
     }
 
-input_string = "Hi, I am Niki, 18 from Madalag!"
+input_string = "Hi, I am shane, 18 from Madalag!"
 result = count_characters(input_string)
 print(result)
 
-{'lowercase': 16, 'uppercase': 4, 'digits': 18, 'special_symbols': 10}
+
 
 
         
